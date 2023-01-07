@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         ⚡ LALOL Cord
+// @description  Discord flooder, webhook deleter
+// @version      ㅤ
+// @author       LALOL
+// @match        *://*.discord.com/*
+// @icon         https://canary.discord.com/assets/ec2c34cadd4b5f4594415127380a85e6.ico
+// @grant        none
+// ==/UserScript==
+
 function sleep(s){return new Promise(resolve=>setTimeout(resolve,s*1000))}
 token=window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getToken !== undefined) {return m.default.getToken()}}}])
 
